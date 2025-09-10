@@ -1,0 +1,28 @@
+:root { --fg:#111; --muted:#666; --line:#eaeaea; --bg:#fff; }
+*{box-sizing:border-box} html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial}
+img{max-width:100%;display:block}
+
+.site{max-width:1040px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
+.logo{width:40px;height:40px}
+.wordmark{font-weight:800;letter-spacing:.5px}
+.nav a{color:inherit;text-decoration:none;margin-left:16px}
+.nav a:hover{opacity:.7}
+
+.hero{max-width:1040px;margin:0 auto;padding:26px 20px;display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:center}
+.hero h1{font-size:36px;margin:.2em 0}
+.bullets{margin:12px 0 0 0;padding-left:18px}
+.hero-img{border:2px solid var(--fg);border-radius:12px}
+
+.about,.gallery,.contact{max-width:1040px;margin:0 auto;padding:24px 20px;border-top:1px solid var(--line)}
+h2{margin:0 0 10px 0}
+
+.btn{display:inline-block;border:2px solid var(--fg);padding:10px 14px;border-radius:8px;text-decoration:none;color:#fff;background:var(--fg);font-weight:700}
+.btn:hover{filter:brightness(0.9)}
+
+.footer{max-width:1040px;margin:0 auto;border-top:1px dashed var(--line);padding:18px 20px;color:var(--muted);text-align:center}
+
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr}
+}
