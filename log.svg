@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="KID CAR ZONE logo">
+  <rect width="256" height="256" fill="white"/>
+  <!-- 简化小车 -->
+  <g fill="none" stroke="#111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 148c0-28 22-50 50-50h36c8 0 16 3 22 8l18 14h18c10 0 18 8 18 18v10c0 8-6 14-14 14H62c-8 0-14-6-14-14v-6z" fill="white"/>
+    <circle cx="88" cy="174" r="18" fill="#111"/>
+    <circle cx="168" cy="174" r="18" fill="#111"/>
+    <rect x="90" y="112" rx="8" ry="8" width="36" height="22" fill="white"/>
+    <rect x="132" y="112" rx="8" ry="8" width="32" height="22" fill="white"/>
+    <path d="M116 150h24" />
+  </g>
+  <!-- KCZ 首字母（可当Favicon） -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-weight="900" font-size="28" fill="#111">
+    <text x="12" y="40">KCZ</text>
+  </g>
+</svg>
